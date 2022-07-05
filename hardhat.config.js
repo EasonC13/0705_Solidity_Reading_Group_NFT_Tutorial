@@ -20,11 +20,11 @@ module.exports = {
   networks: {
     hardhat: {},
     mumbai: {
-      url: "YOUR_INFURA_URL",
+      url: "YOUR_URL",
       accounts: {
         mnemonic:
           // replace to your mnemonic
-          "test test test test test test test test test test test junk",
+          "heart prefer omit enact update bag cargo float raccoon awkward permit acid",
       },
     },
   },

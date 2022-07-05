@@ -14,8 +14,8 @@ contract MyNFT is ERC721URIStorage, ERC2981 {
     constructor(string memory uri) ERC721("MyNFT", "MyNFT") {
         minter = msg.sender;
         tokenCounter = 0;
-        contractURI = uri;
-        _setDefaultRoyalty(msg.sender, 1000);
+        contractURI = uri; //Opensea
+        _setDefaultRoyalty(msg.sender, 1000); //ERC2981
     }
 
     function mint(address to, string memory tokenURI) public returns (uint256) {
